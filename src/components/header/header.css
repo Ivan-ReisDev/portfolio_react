@@ -1,0 +1,12 @@
+h1 {
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+
+}
