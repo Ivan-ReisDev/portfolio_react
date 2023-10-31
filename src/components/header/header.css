@@ -1,12 +1,24 @@
-h1 {
+.logo h1 {
+    font-size: 30px;
     letter-spacing: 2px;
     font-weight: normal;
+    margin: 10px 0;
 }
 
-
+a { 
+    color: #ffffff;
+}
 
 .content {
     display: flex;
     flex-direction: row;
-
+    background: #2e2e2e ;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.logo  {
+    margin-left: 8%;
+}
+

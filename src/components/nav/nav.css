@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    margin-right: 5%;
+}
+
+li {
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 10px;
+    height: 40px;
+    background-color: aqua;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    
+}

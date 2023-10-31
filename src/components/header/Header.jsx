@@ -1,21 +1,13 @@
+import Nav from "../nav/Nav"
 import "./header.css"
+
 const Header = () => {
   return (
     <div className="content">
         <div className="logo">
             <h1> &lt;Ivan Reis/ &gt;</h1>
         </div>
-        <div> 
-            <ul>
-              <h1>testeeeeeeeeeeeee</h1>
-                <li><a href="Home">Home</a></li>
-                <li><a href="Sobre">Sobre</a></li>
-                <li><a href="Contato">Contato</a></li>
-                <li><a href="Projetos">Projetos</a></li>
-                <li><a href="Login">Login</a></li>
-            </ul>
-
-        </div>
+        <Nav/>
     </div>
   )
 }
