@@ -11,6 +11,7 @@ a {
 
 .content {
     display: flex;
+    height: 8vh;
     flex-direction: row;
     background: #2e2e2e ;
     color: #ffffff;
