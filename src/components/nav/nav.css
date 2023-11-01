@@ -3,9 +3,6 @@ nav {
     margin-right: 5%;
 }
 
-li {
-
-}
 
 nav ul {
     display: flex;
@@ -23,6 +20,19 @@ nav li {
     justify-content: center;
 }
 
-a {
-    
-}
+
+@media (max-width: 671px) {
+    nav ul {
+        background-color: blue;
+        position: absolute;
+        height: 100%;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        top: 7vh;
+        left: 0;
+        bottom: 0;
+        right: 0;
+
+    }
+  }
