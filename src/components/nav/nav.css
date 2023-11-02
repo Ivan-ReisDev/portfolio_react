@@ -12,7 +12,7 @@ nav ul {
 nav li {
     margin: 0 10px;
     height: 40px;
-    background-color: aqua;
+
     width: 70px;
     display: flex;
     flex-direction: column;
@@ -22,12 +22,13 @@ nav li {
 
 .btn-sidebar {
     display: none;
+    cursor: pointer;
 }
 
 
 @media (max-width: 671px) {
     nav ul {
-        background-color: rgb(66, 66, 66);
+        background-color: #424242;
         position: absolute;
         height: 98vh;
         width: 100vw;
@@ -37,7 +38,21 @@ nav li {
         left: 100vh;
         bottom: 0;
         right: 0;
-        transition: .6s;
+        transition: 1s;
+    }
+
+    nav li {
+        font-size: 20px;
+        font-weight: bold;
+        width: 100%;
+        margin: 0;
+        height: 10vh;
+        border-bottom: 1px solid #000000;
+    }
+    
+    nav li:hover {
+        background: #313131;
+
     }
 
     .active {
@@ -46,6 +61,10 @@ nav li {
 
     .btn-sidebar {
         display: block;
+        background: transparent;
+        border: none;
+        color: #ffffff;
+        font-size: 25px;
 
     }
   }

@@ -1,0 +1,27 @@
+
+
+.content-inicio {
+    min-height: 92vh;
+    min-width: 100vw ;
+    background: #ccc;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.content-inicio img {
+    max-width: 500px;
+}
+
+.content-left, .content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50vw;
+    min-height: 100%;
+
+}
+
+.content-left {
+    
+}
