@@ -1,8 +1,12 @@
 .logo h1 {
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 2px;
-    font-weight: normal;
     margin: 10px 0;
+}
+
+.logo h1:hover {
+    text-shadow: 1px 1px 35px #ffffff;  
+
 }
 
 a { 
@@ -11,7 +15,7 @@ a {
 
 .content {
     display: flex;
-    height: 8vh;
+    height: 7vh;
     flex-direction: row;
     background: #1b1b1b ;
     color: #ffffff;

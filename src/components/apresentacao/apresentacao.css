@@ -1,9 +1,7 @@
 
 
 .content-inicio {
-    min-height: 92vh;
-    min-width: 100vw ;
-    background: #ccc;
+    min-height: 93vh;
     display: flex;
     flex-direction: row;
 
@@ -19,7 +17,6 @@
     justify-content: center;
     min-width: 50vw;
     min-height: 100%;
-
 }
 
 .content-left {

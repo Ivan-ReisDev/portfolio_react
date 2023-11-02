@@ -16,7 +16,7 @@ const Nav = () => {
          {sidebar ? (<button onClick={eventSidebar} className='btn-sidebar'><FaMixer/></button> ) : 
          (<button onClick={eventSidebar} className='btn-sidebar'><FaBars/></button>)}
       
-              <ul className={sidebar ? "active" : ""}>
+              <ul className={sidebar ? "active" : ""} id='navBar'>
                   <li><a href="Home">Home</a></li>
                   <li><a href="Sobre">Sobre</a></li>
                   <li><a href="Contato">Contato</a></li>
