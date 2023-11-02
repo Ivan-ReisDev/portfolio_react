@@ -2,6 +2,7 @@
     font-size: 25px;
     letter-spacing: 2px;
     margin: 10px 0;
+    font-weight: normal;
 }
 
 .logo h1:hover {
@@ -15,12 +16,16 @@ a {
 
 .content {
     display: flex;
+    position: fixed;
+    top: 0;
+    min-width: 100vw;
     height: 7vh;
     flex-direction: row;
-    background: #1b1b1b ;
+    background: #222222 ;
     color: #ffffff;
     align-items: center;
     justify-content: space-between;
+    border-bottom: solid 2px #1b864b;
 }
 
 .logo  {
@@ -28,7 +33,7 @@ a {
 }
 
 .logo span{
-    color: #3CB371;
+    color: #1b864b;
 
 }
 

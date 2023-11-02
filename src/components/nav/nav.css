@@ -25,7 +25,7 @@ nav ul {
     content: " ";
     width: 0;
     height: 2px;
-    background-color: #3CB371 ;
+    background-color: #1b864b ;
     position: absolute;
     bottom: -5px;
     left: 0px;
@@ -58,6 +58,26 @@ nav ul {
         transition: 1s;
     }
 
+    #navBar li {
+
+    }
+    
+    #navBar a {
+
+    
+    }
+    
+    #navBar a::after {
+        display: none;
+    }
+    
+    #navBar a:hover::after {
+        display: none;
+        width: 0;
+       
+    }
+    
+
     nav li {
         display: flex;
         flex-direction: column;
@@ -75,7 +95,6 @@ nav ul {
         background: #313131;
 
     }
-
     .active {
         left: 0;
     }

@@ -1,9 +1,11 @@
 
-
 .content-inicio {
+    margin-top: 7vh;
     min-height: 93vh;
     display: flex;
     flex-direction: row;
+    background-color: rgb(14, 14, 14);
+    color: #fff;
 
 }
 
@@ -20,5 +22,47 @@
 }
 
 .content-left {
-    
+    text-shadow: 1px 1px 50px #fff;
 }
+
+.content-left span, .content-left strong{
+    color: #1b864b;
+}
+
+.content-left span {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.content-left h2 {
+    font-size: 35px;
+    text-shadow: 1px 1px 50px #fff;
+}
+
+
+
+.content-left p {
+    font-size: 18px;
+
+}
+.content-left-botton {
+    margin-top: 2em;
+
+}
+.content-left-botton a {
+    font-size: 45px;
+    margin-left: 10px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6em;
+
+}
+
+.linkedin {
+    color: #0A66C2;
+
+}
+
