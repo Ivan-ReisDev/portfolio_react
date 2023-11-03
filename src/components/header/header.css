@@ -7,7 +7,6 @@
 
 .logo h1:hover {
     text-shadow: 1px 1px 35px #ffffff;  
-
 }
 
 a { 
@@ -21,7 +20,7 @@ a {
     min-width: 100vw;
     height: 7vh;
     flex-direction: row;
-    background: #222222 ;
+    background: #363636 ;
     color: #ffffff;
     align-items: center;
     justify-content: space-between;

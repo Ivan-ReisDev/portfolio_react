@@ -1,11 +1,12 @@
 import React from 'react'
+import './sobre.css'
 
 const Sobre = () => {
   return (
     <>
-        <h3>SOBRE</h3>
-        <h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3><h3>SOBRE</h3>
-    
+        <div className='sobre' id='sobre'>
+
+        </div>
     </>
   )
 }

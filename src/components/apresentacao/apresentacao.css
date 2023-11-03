@@ -4,9 +4,21 @@
     min-height: 93vh;
     display: flex;
     flex-direction: row;
-    background-color: rgb(14, 14, 14);
+    background-image: linear-gradient(to right top, #2a2a2a, #23323f, #003e49, #00483b, #144e16);
     color: #fff;
+}
 
+.btn-scrol {
+    position: relative;
+    bottom: 25px;
+    left: 100;
+    right: 100;
+    z-index: 10;
+    max-width: 35px;
+    color: #fff;
+    font-size: 50px;
+    border: none;
+    background: transparent;
 }
 
 .content-inicio img {
@@ -21,10 +33,6 @@
     min-height: 100%;
 }
 
-.content-left {
-    text-shadow: 1px 1px 50px #fff;
-}
-
 .content-left span, .content-left strong{
     color: #1b864b;
 }
@@ -36,10 +44,12 @@
 
 .content-left h2 {
     font-size: 35px;
-    text-shadow: 1px 1px 50px #fff;
+
 }
 
-
+.content-left strong {
+    font-size: 45px;
+}
 
 .content-left p {
     font-size: 18px;
@@ -58,11 +68,52 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 6em;
-
 }
 
-.linkedin {
+.linkedin:hover {
     color: #0A66C2;
 
 }
 
+.github:hover {
+    color: #ccc;
+}
+
+.instagram:hover {
+    color: #e1306c;   
+}
+
+.whatsapp:hover {
+    color: #008000 ;
+
+}
+
+.btnFake {
+    position: absolute;
+    height: 50px;
+    width: 100vw;
+    font-size: 45px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnFake a {
+    padding: 0;
+}
+
+.btnFake a:hover {
+    animation: rotates 1.5s alternate;
+    color: #1b864b;
+}
+
+@keyframes rotates {
+    to {
+        transform: rotate(0);
+    } 
+    
+    from {
+        transform: rotate(360deg);
+    }    
+}
