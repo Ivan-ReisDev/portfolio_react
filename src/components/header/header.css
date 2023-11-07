@@ -21,11 +21,11 @@ a {
     min-width: 100vw;
     height: 7vh;
     flex-direction: row;
-    background: #363636 ;
+    background-image: linear-gradient(to top, #032229, #11222a, #1b2128, #202226, #232323);
     color: #ffffff;
     align-items: center;
     justify-content: space-between;
-    border-bottom: solid 2px #ffffff;
+
 }
 
 .logo  {
@@ -33,7 +33,7 @@ a {
 }
 
 .logo span{
-    color: #1b864b;
+    color: #0ca2bd;
 
 }
 

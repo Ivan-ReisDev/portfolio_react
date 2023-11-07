@@ -26,7 +26,7 @@ const Apresentacao = () => {
             options={{
                 background: {
                     color: {
-                        value: "#28252e",
+                        value: "#032229",
                     },
                 },
                 fpsLimit: 120,
