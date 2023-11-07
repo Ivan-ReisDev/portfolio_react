@@ -19,8 +19,8 @@ const Nav = () => {
               <ul className={sidebar ? "active" : ""} id='navBar'>
                   <li><a href="Home">Home</a></li>
                   <li><a href="Sobre">Sobre</a></li>
-                  <li><a href="Contato">Contato</a></li>
                   <li><a href="Projetos">Projetos</a></li>
+                  <li><a href="Contato">Contato</a></li>
               </ul>
           </nav>
     </>

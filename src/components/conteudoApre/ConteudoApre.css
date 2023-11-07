@@ -1,0 +1,22 @@
+.apresentacao{
+   z-index: 2;
+   position: absolute;
+   font-family: 'Jost';
+   top: 7vh;
+   width: 100vw;
+   height: 93vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color: #ffffff;
+}
+
+.apresentacao h2 {
+    font-size: 30px;
+
+}
+
+.apresentacao span {
+    color: #1b864b;
+
+}

@@ -1,37 +1,100 @@
-import React from 'react'
-import { FaGithubSquare, FaLinkedin, FaAngleDown, FaInstagramSquare, FaWhatsappSquare } from "react-icons/fa";
-import Programador from '../../assets/programador.png'
-
+import { useCallback } from "react";
+import Particles from "react-particles";
+//import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
+import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSlim`, install the "tsparticles-slim" package too.
 import './apresentacao.css'
-
 const Apresentacao = () => {
-  return (
-    <>
-      <div className='content-inicio '>
-        <section className='content-left'>
-          <div className='principal'>
-            <div>
-              <span>&#60; / &#62;</span>
-              <h2 class="titulo">Desenvolvedor Web - <strong>Ivan Reis</strong></h2>
-              <p>Seja bem-vindo, conheça alguns dos meus projetos.</p>
-            </div>
-            <div className='content-left-botton'>
-              <a href="https://github.com/Ivan-ReisDev/" target='_blank' className='github'><FaGithubSquare /></a>
-              <a href="https://www.linkedin.com/in/ivan-reis-b93b32248/" target='_blank' className='linkedin'><FaLinkedin /></a>
-              <a href="https://www.instagram.com/ivan__reis/" target='_blank' className='instagram'><FaInstagramSquare/></a>
-              <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521985598348" target='_blank' className='whatsapp' ><FaWhatsappSquare/></a>
-            </div>
-          </div>
-        </section>
-        <section className='content-right'>
-          <img src={Programador} alt="" />
-        </section>
-        <div className='btnFake'>
-          <a href="#sobre"><FaAngleDown/></a>
-        </div>
-      </div>
-    </>
-  )
-}
+    const particlesInit = useCallback(async engine => {
+        console.log(engine);
+        // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+        // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+        // starting from v2 you can add only the features you need reducing the bundle size
+        //await loadFull(engine);
+        await loadSlim(engine);
+    }, []);
+
+    const particlesLoaded = useCallback(async container => {
+        await console.log(container);
+    }, []);
+
+    return (
+        
+        <Particles 
+            id="tsparticles"
+            init={particlesInit}
+            loaded={particlesLoaded}
+            options={{
+                background: {
+                    color: {
+                        value: "#28252e",
+                    },
+                },
+                fpsLimit: 120,
+                interactivity: {
+                    events: {
+                        onClick: {
+                            enable: true,
+                            mode: "push",
+                        },
+                        onHover: {
+                            enable: true,
+                            mode: "repulse",
+                        },
+                        resize: true,
+                    },
+                    modes: {
+                        push: {
+                            quantity: 4,
+                        },
+                        repulse: {
+                            distance: 100,
+                            duration: 0.4,
+                        },
+                    },
+                },
+                particles: {
+                    color: {
+                        value: "#ffffff",
+                    },
+                    links: {
+                        color: "#ffffff",
+                        distance: 125,
+                        enable: true,
+                        opacity: 0.5,
+                        width: 1,
+                    },
+                    move: {
+                        direction: "none",
+                        enable: true,
+                        outModes: {
+                            default: "bounce",
+                        },
+                        random: false,
+                        speed: 2,
+                        straight: false,
+                    },
+                    number: {
+                        density: {
+                            enable: true,
+                            area: 800,
+                        },
+                        value: 80,
+                    },
+                    opacity: {
+                        value: 0.5,
+                    },
+                    shape: {
+                        type: "circle",
+                    },
+                    size: {
+                        value: { min: 1, max: 5 },
+                    },
+                },
+                detectRetina: true,
+            }}
+            
+        /> 
+    );
+};
 
 export default Apresentacao
