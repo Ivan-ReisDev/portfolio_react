@@ -6,7 +6,7 @@ const ConteudoApre = () => {
   return (
     <div className='apresentacao'>
       <div className="content-left">
-        <h4>Potifólio</h4>
+        <h4>Portfólio</h4>
         <h2>Ivan Reis</h2>
         <p>Desenvolvedor Full-Stack</p>
         <div className='icons'>

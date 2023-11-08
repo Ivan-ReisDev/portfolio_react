@@ -21,10 +21,13 @@ a {
     min-width: 100vw;
     height: 7vh;
     flex-direction: row;
-    background-image: linear-gradient(to top, #032229, #11222a, #1b2128, #202226, #232323);
     color: #ffffff;
     align-items: center;
     justify-content: space-between;
+}
+
+.activeScroll {
+    background-color: #032229;
 
 }
 

@@ -17,7 +17,11 @@ a {
 
 body {
     background: #ccc;
-    
-    
 
 }
+
+:-webkit-scrollbar {
+    width: 12px;
+  }
+
+/* Estilize a barra de rolagem vertical */

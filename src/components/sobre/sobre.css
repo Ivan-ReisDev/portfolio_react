@@ -1,4 +1,5 @@
 .sobre {
-    height: 93vh;
-    width: 100vw;
+    z-index: 21;
+    background-color: rgb(255, 255, 255);
+    
 }

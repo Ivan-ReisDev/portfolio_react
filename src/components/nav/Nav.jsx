@@ -10,12 +10,13 @@ const Nav = () => {
     setSidebar(!sidebar)
       }
 
+  const [dark_mode, setDark_Mode] = useState(false)
+
   return (
     <>
       <nav> 
          {sidebar ? (<button onClick={eventSidebar} className='btn-sidebar'><FaMixer/></button> ) : 
          (<button onClick={eventSidebar} className='btn-sidebar'><FaBars/></button>)}
-      
               <ul className={sidebar ? "active" : ""} id='navBar'>
                   <li><a href="Home">Home</a></li>
                   <li><a href="Sobre">Sobre</a></li>

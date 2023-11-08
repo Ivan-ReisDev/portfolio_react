@@ -58,15 +58,6 @@ nav ul {
         transition: 1s;
     }
 
-    #navBar li {
-
-    }
-    
-    #navBar a {
-
-    
-    }
-    
     #navBar a::after {
         display: none;
     }
@@ -74,7 +65,6 @@ nav ul {
     #navBar a:hover::after {
         display: none;
         width: 0;
-       
     }
     
 
