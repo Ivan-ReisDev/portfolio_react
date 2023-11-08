@@ -2,7 +2,7 @@ import { useCallback } from "react";
 import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim"; 
 import './apresentacao.css'
-const Apresentacao = () => {
+const Apresentacao = (props) => {
     const particlesInit = useCallback(async engine => {
 
         await loadSlim(engine);
@@ -11,6 +11,19 @@ const Apresentacao = () => {
     const particlesLoaded = useCallback(async container => {
         await console.log(container);
     }, []);
+
+    const modoDark = () => {
+        let codeHex = ''
+        const modo = props.funcDark()
+        if(!modo){ 
+            codeHex = "#032229"
+           return codeHex 
+        } else {
+            codeHex = "#0d6174"
+            return codeHex 
+        }
+
+    }
 
     return (
         
@@ -21,7 +34,7 @@ const Apresentacao = () => {
             options={{
                 background: {
                     color: {
-                        value: "#032229",
+                        value: modoDark(),
                     },
                 },
                 fpsLimit: 120,

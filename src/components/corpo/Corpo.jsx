@@ -2,9 +2,12 @@ import React from 'react'
 import Sobre from '../sobre/Sobre'
 import './corpo.css'
 
-const Corpo = () => {
+const Corpo = (props) => {
+ 
+  const modo = props.funcDark()
+
   return (
-    <div className='corpo'>
+    <div className={ modo ? "corpo" : "dark"}>
         <Sobre/>
     </div>
   )

@@ -3,6 +3,8 @@ import { FaLinkedin, FaGithubSquare, FaWhatsappSquare } from "react-icons/fa";
 
 import './ConteudoApre.css'
 const ConteudoApre = () => {
+
+
   return (
     <div className='apresentacao'>
       <div className="content-left">

@@ -4,14 +4,24 @@ import Header from './components/header/Header'
 import Sobre from './components/sobre/Sobre'
 import ConteudoApre from './components/conteudoApre/ConteudoApre.jsx'
 import Corpo from './components/corpo/Corpo.jsx'
-import { FaSun, FaMoon } from "react-icons/fa";
+import { useState } from 'react'
+
+
 function App() {
+
+  const [modoDark, setModoDark] = useState(false)
+
+  const updadeModoDark = (event) => {
+    setModoDark(event)
+  }
+  const funcDark = () => modoDark
+
   return (
     <>
-      <Header/>
-      <Apresentacao/>
-      <ConteudoApre/>
-      <Corpo/>
+      <Header dark_mode={updadeModoDark}/>
+      <Apresentacao funcDark={funcDark}/>
+      <ConteudoApre />
+      <Corpo funcDark={funcDark}/>
     </>
   )
 }

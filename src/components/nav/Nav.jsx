@@ -5,13 +5,9 @@ import './nav.css'
 
 const Nav = () => {
   const [sidebar, setSidebar] = useState(false);
- 
   const eventSidebar = () => { 
     setSidebar(!sidebar)
       }
-
-  const [dark_mode, setDark_Mode] = useState(false)
-
   return (
     <>
       <nav> 
