@@ -5,6 +5,7 @@ import "./header.css"
 
 const Header = (props) => {
   const [scroled, setScroled] = useState(false)
+  const [checkedDark, setCheckedDark] = useState(true)
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY
@@ -20,7 +21,6 @@ const Header = (props) => {
       }
   }, [])
 
-  const [checkedDark, setCheckedDark] = useState(true)
   const modo_dark = () => {
     setCheckedDark(!checkedDark)
     props.dark_mode(checkedDark)

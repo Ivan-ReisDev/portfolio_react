@@ -45,7 +45,9 @@ a {
   }
   
   .switch {
-    position: relative;
+    position: absolute;
+    top: 15px;
+    right: 35px ;
     background-color: #2e2e2e;
     width: 50px;
     height: 25px;
