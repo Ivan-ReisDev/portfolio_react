@@ -1,6 +1,82 @@
 .sobre {
-    z-index: 21;
+    z-index: 27px;
     display: flex;
     flex-direction: column;
-    ali
+    justify-content: space-around;
+    align-items: center;
+    height: 93vh;
+    width: 100vw;
+}
+
+
+.paragrafo h3 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 2em;
+    border-bottom: 2px solid #0ca2bd;
+}
+
+
+.content-sobre {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.paragrafo p {
+    width: 550px;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 30px;
+
+}
+
+
+.paragrafo, .img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.paragrafo {
+    width: 50%;
+
+}
+.img {
+    width: 50vw;
+
+}
+
+.img img {
+    width: 500px;
+
+}
+
+.links {
+    font-size: 16px;
+    background: linear-gradient(90deg, transparent, #0ca2bd)  ;
+    padding: 12px ;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 35px;
+    transition: .6s;
+}
+
+.links:hover {
+    background:linear-gradient(90deg, transparent, #076575);
+
+
+}
+
+.links span {
+    margin-left: 5px;
+
 }

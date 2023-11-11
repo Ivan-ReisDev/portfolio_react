@@ -3,19 +3,29 @@
     top: 100vh;
     width: 100vw;
     color: black;
-    background-color: #f3f3f3;
+    background-color: #ebebeb;
+}
+
+
+.corpo a {
+    color: #032229;
+
 }
 
 .dark {
-    background-color: rgb(37, 37, 37);
+    background-color: #032229;
+    z-index: 25px;
     position: absolute;
     top: 100vh;
-    color: #ffffff;
+    color: #969696;
     width: 100vw;
 }
 
 .dark h4 { 
     color: #032229;
-
 }
+
+
+
+
 

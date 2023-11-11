@@ -8,6 +8,7 @@ const Corpo = (props) => {
 
   return (
     <div className={ modo ? "corpo" : "dark"}>
+
         <Sobre/>
     </div>
   )
