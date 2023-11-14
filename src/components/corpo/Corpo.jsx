@@ -1,15 +1,14 @@
-import React from 'react'
 import Sobre from '../sobre/Sobre'
 import './corpo.css'
 
-const Corpo = (props) => {
- 
-  const modo = props.funcDark()
+// eslint-disable-next-line react/prop-types
+const Corpo = ({ modoDark }) => {
+
 
   return (
-    <div className={ modo ? "corpo" : "dark"}>
+    <div className={modoDark ? "corpo" : "dark"}>
 
-        <Sobre/>
+      <Sobre />
     </div>
   )
 }

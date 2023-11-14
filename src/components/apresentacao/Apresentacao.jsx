@@ -1,8 +1,11 @@
 import { useCallback } from "react";
 import Particles from "react-particles";
-import { loadSlim } from "tsparticles-slim"; 
+import { loadSlim } from "tsparticles-slim";
 import './apresentacao.css'
-const Apresentacao = (props) => {
+
+
+// eslint-disable-next-line react/prop-types
+const Apresentacao = ({ modoDark }) => {
     const particlesInit = useCallback(async engine => {
 
         await loadSlim(engine);
@@ -12,29 +15,29 @@ const Apresentacao = (props) => {
         await console.log(container);
     }, []);
 
-    const modoDark = () => {
+    const OptionDark = () => {
         let codeHex = ''
-        const modo = props.funcDark()
-        if(!modo){ 
+
+        if (!modoDark) {
             codeHex = "#032229"
-           return codeHex 
+            return codeHex
         } else {
             codeHex = "#0d6174"
-            return codeHex 
+            return codeHex
         }
 
     }
 
     return (
-        
-        <Particles 
+
+        <Particles
             id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}
             options={{
                 background: {
                     color: {
-                        value: modoDark(),
+                        value: OptionDark(),
                     },
                 },
                 fpsLimit: 120,
@@ -100,8 +103,8 @@ const Apresentacao = (props) => {
                 },
                 detectRetina: true,
             }}
-            
-        /> 
+
+        />
     );
 };
 

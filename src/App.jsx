@@ -9,19 +9,24 @@ import { useState } from 'react'
 
 function App() {
 
-  const [modoDark, setModoDark] = useState(false)
+  var storeLocal = localStorage.getItem('store')
+  const [modoDark, setModoDark] = useState(storeLocal ? storeLocal === 'true' : false);
 
-  const updadeModoDark = (event) => {
-    setModoDark(event)
-  }
-  const funcDark = () => modoDark
+  const updadeModoDark = () => {
+    setModoDark((prevModoDark) => {
+      const newModoDark = !prevModoDark;
+      localStorage.setItem("store", newModoDark.toString());
+      return newModoDark;
+    });
+  };
 
   return (
     <>
-      <Header dark_mode={updadeModoDark}/>
-      <Apresentacao funcDark={funcDark}/>
+   
+      <Header dark_mode={updadeModoDark} modoDark={modoDark} />
+      <Apresentacao modoDark={modoDark} />
       <ConteudoApre />
-      <Corpo funcDark={funcDark}/>
+      <Corpo modoDark={modoDark} />
     </>
   )
 }
