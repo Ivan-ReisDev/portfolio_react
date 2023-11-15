@@ -7,9 +7,11 @@ import Corpo from './components/corpo/Corpo.jsx'
 import { useState } from 'react'
 
 
+
 function App() {
 
   var storeLocal = localStorage.getItem('store')
+
   const [modoDark, setModoDark] = useState(storeLocal ? storeLocal === 'true' : false);
 
   const updadeModoDark = () => {
@@ -27,6 +29,7 @@ function App() {
       <Apresentacao modoDark={modoDark} />
       <ConteudoApre />
       <Corpo modoDark={modoDark} />
+      
     </>
   )
 }

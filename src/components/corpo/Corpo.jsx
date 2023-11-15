@@ -1,3 +1,4 @@
+import Popup_cookies from '../popup_cookies/Popup_cookies'
 import Sobre from '../sobre/Sobre'
 import './corpo.css'
 
@@ -9,6 +10,7 @@ const Corpo = ({ modoDark }) => {
     <div className={modoDark ? "corpo" : "dark"}>
 
       <Sobre />
+      <Popup_cookies/>
     </div>
   )
 }
