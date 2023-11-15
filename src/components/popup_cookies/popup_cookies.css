@@ -1,5 +1,5 @@
 .popup-pg {
-    background-color: #0000003f;
+    background-color: #000000b7;
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -17,21 +17,22 @@
 
 .popup {
     background-color: rgb(238, 238, 238);
-    border-radius: 10px;
-    height: 250px;
-    width: 400px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+    height: 150px;
+    width: 40%;
     padding: 15px;
     text-align: center;
 }
 
 .popup-top {
-    font-size: 20px;
+    font-size: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 20%;
-    border-bottom: 1px solid #c4c4c4;
 }
 
 .popup h5{
@@ -49,7 +50,7 @@
 .popup-meio {
     text-align: center;
     width: 100%;
-    height: 60%;
+    height: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +60,7 @@
 
 .popup-end {
     width: 100%;
-    height: 20%;
+    height: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,7 +68,7 @@
 
 .popup-end button {
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 8px;
     color: #fff;
     background-color: #007BFF;
