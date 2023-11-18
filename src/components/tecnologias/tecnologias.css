@@ -1,7 +1,8 @@
 .tecnologias {
     width: 100vw;
-    height: 93vh;
+    min-height: 93vh;
     padding: 0 5%;
+    z-index: 51;
 
 }
 
@@ -26,22 +27,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 
 .content-pai {
     width: 100%;
-    height: 80%;
-    flex-direction: row;
+    min-height: 97vh;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.content-icon {
-    width: 50%;
-    flex-direction: column;
-}
-
-
-.legenda {
-    width: 50%;
-}

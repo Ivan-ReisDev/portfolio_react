@@ -14,7 +14,7 @@ a {
 }
 
 .content {
-    z-index: 3;
+    z-index: 52;
     display: flex;
     position: fixed;
     top: 0;

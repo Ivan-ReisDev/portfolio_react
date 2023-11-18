@@ -1,9 +1,6 @@
 import React, { useState } from 'react'
-
 import './tecnologias.css'
 import Slide from '../Slide-tec/Slide';
-
-
 
 const Tecnologias = () => {
 

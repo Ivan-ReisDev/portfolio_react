@@ -5,6 +5,7 @@
     height: 40vh;
     display: flex;
     flex-direction: column;
+    z-index: 30;
 }
 
 .footer li {
