@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    z-index: 50;
+    z-index: 55;
     top: 0;
     height: 100vh;
     width: 100vw;
@@ -18,39 +18,26 @@
 .popup {
     background-color: rgb(238, 238, 238);
     position: absolute;
-    bottom: 0;
-    border-radius: 5px;
-    height: 150px;
-    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 3vh;
+    border-radius: 2px;
+    height: 80px;
+    width: 90%;
     padding: 15px;
     text-align: center;
 }
 
-.popup-top {
-    font-size: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 20%;
-}
-
-.popup h5{
-    color: #383838;
-    font-size: 18px;
-    letter-spacing: 1px;
-
-}  
-
 .popup p { 
+    font-size: 11px;
     color: rgb(2, 2, 2);
 
 }
 
 .popup-meio {
     text-align: center;
-    width: 100%;
-    height: 40%;
+    min-width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +47,6 @@
 
 .popup-end {
     width: 100%;
-    height: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +54,7 @@
 
 .popup-end button {
     border: none;
-    border-radius: 5px;
+    border-radius: 3px;
     padding: 8px;
     color: #fff;
     background-color: #007BFF;

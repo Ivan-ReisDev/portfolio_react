@@ -17,11 +17,8 @@ function Popup_cookies() {
     <>
     <div className={storeLocalCokies ? 'popup-pg-none' :'popup-pg'}>
     <div className='popup'>
-        <div className='popup-top'>
-            <h5>Controle sua Privacidade</h5>
-        </div>
         <div className='popup-meio'>
-            <p>Nosso site utiliza cookies e cache para melhorar sua navegação</p>
+            <p>Olá! Este site utiliza cookies para garantir que você tenha a melhor experiência possível. Os cookies são pequenos arquivos de texto armazenados no seu dispositivo que nos ajudam a entender como você utiliza o site. Ao continuar navegando, você está concordando com o uso de cookies.</p>
         </div>
         <div className='popup-end'> 
             <button onClick={aceiteCookies}>Prosseguir</button>
