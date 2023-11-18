@@ -18,7 +18,6 @@ const Nav = () => {
                   <li><a href="#sobre">Sobre</a></li>
                   <li><a href="#tecnologias">Tecnologias</a></li>
                   <li><a href="Projetos">Projetos</a></li>
-                  <li><a href="academico">Acadêmico</a></li>
                   <li><a href="Contato">Contato</a></li>
               </ul>
           </nav>

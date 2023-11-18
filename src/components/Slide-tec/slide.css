@@ -1,0 +1,59 @@
+.card {
+    border-radius: 20px ;
+    background-color: rgb(18, 92, 156);
+    width: 220px;
+    height: 200px;
+    transition: .6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card button {
+    transition: 1s;
+    transform: rotate(0deg);
+}
+
+
+.active-card {
+    height: 350px;
+}
+
+.active-card button {
+    transition: 1s;
+    transform: rotate(180deg);
+
+}
+
+
+.card img {
+    width: 140px;
+    margin: 0 auto;
+}
+
+.card button {
+    border: none;
+    background-color: transparent;
+}
+
+.card p {
+    font-size: 12px;
+
+} 
+
+.legenda {
+    width: 100%;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    opacity: 1;
+}
+
+.legenda-none{
+    opacity: 0;
+    height: 0;
+}
