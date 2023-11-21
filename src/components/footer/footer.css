@@ -13,13 +13,13 @@
 }
 
 .footer-info {
+    padding-bottom: 2em ;
     width: 100%;
     height: 85%;
     background-color: rgb(46, 46, 46);
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
 
 .footer-um {
@@ -30,6 +30,7 @@
     max-width: 350px;
     height: 30vh;
 }
+
 .footer-um img {
     width: 450px;
 }
@@ -42,6 +43,7 @@
     min-width: 350px;
     height: 20vh;
 }
+
 .footer-mapa li, .footer-contato li {
     margin: 5px 0;
 }
@@ -54,12 +56,10 @@
 
 .footer-contato li {
     margin: 0 10px;
-
 }
 
 .footer-contato a {
     font-size: 35px;
-
 }
 
 .footer-mapa a, .footer-contato a {
@@ -69,7 +69,6 @@
 .footer-mapa h5, .footer-contato h5 {
     font-size: 18px;
     margin-bottom: 20px;
-
 }
 
 .footer-creditos {

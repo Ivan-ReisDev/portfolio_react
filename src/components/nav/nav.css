@@ -5,10 +5,14 @@ nav {
 
 nav ul {
     display: flex;
+    justify-content: center;
     list-style: none;
 }
 
 #navBar li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     margin: 0 20px 0 0;
     position: relative;
 }
@@ -45,7 +49,7 @@ nav ul {
 
 @media (max-width: 671px) {
     nav ul {
-        background-color: #424242;
+        background-color: #032229;
         position: absolute;
         height: 98vh;
         width: 100vw;
@@ -82,7 +86,7 @@ nav ul {
     }
     
     nav li:hover {
-        background: #313131;
+        background: #042c35;
 
     }
     .active {

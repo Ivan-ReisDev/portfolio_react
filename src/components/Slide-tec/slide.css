@@ -1,6 +1,6 @@
 .card {
-    margin: 20px;
-    border-radius: 20px ;
+    margin: 8px;
+    border-radius: 10px ;
     background-color: rgb(255, 255, 255);
     width: 250px;
     height: 200px;
@@ -11,26 +11,31 @@
     justify-content: space-around;
     text-align: start;
     z-index: 51;
-    box-shadow: 10px 10px 15px #4d4d4d;
+    box-shadow: 10px 10px 25px #3d3d3d3f;
 }
 
 .card button {
     font-size: 25px;
     transition: 1s;
+    cursor: pointer;
     transform: rotate(0deg);
 }
 
 .card h4 {
     margin: 10px;
+    text-transform: uppercase;
+    color: rgb(75, 75, 75);
+    letter-spacing: 1px;
 
 }
 
 .active-card {
-    height: 350px;
+    height: 380px;
 }
 
 .active-card button {
     transition: 1s;
+    color: #8a8a8a;
     transform: rotate(180deg);
 
 }
@@ -49,8 +54,18 @@
 .card p {
     width: 80%;
     font-size: 12px;
+    letter-spacing: 1px;
+    color: rgb(75, 75, 75);
 
 } 
+.card-logo{
+    z-index: 54;
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 100%;
+    display: flex;
+
+}
 
 .legenda {
     width: 100%;
@@ -58,12 +73,35 @@
     height: auto;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    transition: 1s;
+    justify-content: space-around;
+    transition: 1.5s;
     opacity: 1;
+    z-index: 53;
+    transform: translate(0, 0);
+    width: 100%;
+    min-height: 45%;
 }
 
 .legenda-none{
+    transition: .5s;
+    transform: translate(0, -150px );
     opacity: 0;
     height: 0;
+}
+
+.legenda-title {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.legenda-legenda {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
 }
