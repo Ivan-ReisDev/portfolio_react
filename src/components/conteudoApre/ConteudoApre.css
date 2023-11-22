@@ -74,3 +74,21 @@
 .whatsapp:hover {
     color: #25D366;
 }
+
+
+@media (max-width: 450px) {
+    .apresentacao h2 {
+        font-size: 50px;
+    }
+
+    .cargo {
+         min-width: 250px;
+         max-width: 300px;
+    }
+
+    .cargo p {
+        font-size: 16px;
+    }
+
+
+}

@@ -20,6 +20,8 @@
     height: 100%;
     width: 100vw;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     flex-direction: row;
 }
 
@@ -39,10 +41,12 @@
 }
 
 .paragrafo {
+    width: 600px;
     width: 50%;
 }
 
 .img {
+    background-color: bisque;
     width: 50vw;
 }
 
@@ -69,5 +73,45 @@
 
 .links span {
     margin-left: 5px;
+
+}
+
+@media (max-width: 1200px) {
+    .paragrafo {
+        width: 60vw;
+    }
+    .img {
+        width: 30vw;
+    }
+
+    .img img {
+        width: 400px;
+    }
+
+}
+
+@media (max-width: 950px) {
+
+    .paragrafo {
+        min-width: 100%;
+    }
+
+    .paragrafo p {
+        width: 500px;
+
+    }
+
+    .img {
+        display: none;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    .paragrafo p {
+        width: 350px;
+
+    }
 
 }

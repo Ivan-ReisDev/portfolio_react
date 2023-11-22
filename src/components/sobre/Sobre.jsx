@@ -8,10 +8,6 @@ const Sobre = () => {
   return (
     <>
       <section className='sobre' id='sobre'>
-        <div className='header-sobre'>
-        </div>
-        <div>
-        </div>
         <div className='content-sobre'>
           <div className="img">
             <img src={Google} alt="" />

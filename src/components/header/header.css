@@ -30,8 +30,6 @@ a {
     background-color: #032229;
 }
 
-
-
 .logo  {
     margin-left: 8%;
 }
@@ -43,30 +41,37 @@ a {
 #chk {
     display: none;
   }
-  
-  .switch {
-    width: 50px;
-    height: 25px;
-    border-radius: 40px;
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    transition: all .5s ease-in-out;
-    cursor: pointer;
-  }
 
-  .Nav-dark{ 
-    min-width:50% ;
+
+.Nav-dark{ 
+    min-width: 650px ;
     display: flex;
+    margin-right: 2em;
     align-items: center;
     justify-content: center;
     min-height: 100%;
-
   }
   
-  .icon-darkmode {
+.icon-darkmode {
     cursor: pointer;
-    margin-right: 20px ;
+    margin-right: 10px ;
     z-index: 53;
-    
+  }
+
+  @media (max-width: 850px) {
+    .content {
+      justify-content: space-between;
+      
+    }
+    .Nav-dark {
+      min-width: 100px;
+      justify-content: center;
+      margin-right: 1em;
+    }
+
+    .icon-darkmode {
+      margin-left: 10px;
+
+    }
+
   }

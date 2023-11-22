@@ -1,11 +1,10 @@
 .corpo {
     position: absolute;
     top: 100vh;
-    width: 100vw;
+    min-width: 100vw;
     color: black;
-    background-color: #ebebeb;
+    background-color: #E7ECEF;
 }
-
 
 .corpo a {
     color: #032229;

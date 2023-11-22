@@ -31,10 +31,10 @@ const Header = ({ dark_mode, modoDark }) => {
       </div>
       <input type="checkbox" id="chk" onClick={dark_mode} />
       <div className="Nav-dark">
-      <label htmlFor="chk" className="switch">
-        {modoDark  ? <FaMoon/> : <FaSun/>} 
-      </label>
         <Nav />
+        <label htmlFor="chk" className="switch">
+          {modoDark ? <FaMoon className="icon-darkmode" /> : <FaSun className="icon-darkmode" />}
+        </label>
       </div>
     </div>
   )
