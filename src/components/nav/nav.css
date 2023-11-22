@@ -50,7 +50,7 @@ nav ul {
 @media (max-width: 850px) {
     nav ul {
         background-color: #032229;
-        position: absolute;
+        position: fixed;
         height: 98vh;
         width: 100vw;
         display: flex;
