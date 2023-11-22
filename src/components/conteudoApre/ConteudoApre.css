@@ -14,9 +14,10 @@
 
 .apresentacao h2 {
     font-size: 70px;
-    margin: 20cpx 0 0 0;
+    margin: 20px 0 0 0;
     letter-spacing: 8px;
     text-transform: uppercase;
+    text-shadow: 10px 10px 25px #3d3d3d3f;
 }
 
 .content-left {
@@ -41,7 +42,7 @@
     max-width: 400px;
     border-radius: 30px;
     margin: 10px 0;
-    box-shadow: 1px 1px 20px rgb(65, 65, 65);
+    box-shadow: 10px 10px 25px #3d3d3d3f;;
 
 }
 

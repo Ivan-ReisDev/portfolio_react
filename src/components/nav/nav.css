@@ -18,6 +18,8 @@ nav ul {
 }
 
 #navBar a {
+    display: flex;
+    flex-direction:row;
     font-size: 15px;
     padding-right: 15px;
     color: rgb(241, 241, 241);
@@ -46,6 +48,10 @@ nav ul {
     cursor: pointer;
 }
 
+.icon-nav {
+    display: none;
+}
+
 
 @media (max-width: 850px) {
     nav ul {
@@ -70,6 +76,17 @@ nav ul {
         display: none;
         width: 0;
     }
+    #navBar a {
+        font-weight: normal;
+        font-size: 25px;
+
+    }
+
+    .icon-nav {
+        margin-right: 10px;
+        display: flex;
+    
+    }
     
 
     nav li {
@@ -82,7 +99,6 @@ nav ul {
         width: 100%;
         margin: 0;
         height: 10vh;
-        border-bottom: 1px solid #000000;
     }
     
     nav li:hover {
