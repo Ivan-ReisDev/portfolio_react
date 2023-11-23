@@ -1,5 +1,6 @@
 import { Footer } from '../footer/Footer'
 import Popup_cookies from '../popup_cookies/Popup_cookies'
+import Projetos from '../projetos/Projetos_main'
 import Sobre from '../sobre/Sobre'
 import Tecnologias from '../tecnologias/Tecnologias'
 import './corpo.css'
@@ -13,6 +14,7 @@ const Corpo = ({ modoDark }) => {
 
       <Sobre />
       <Tecnologias/>
+      <Projetos/>
       <Popup_cookies/>
       <Footer/>
 

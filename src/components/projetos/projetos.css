@@ -1,0 +1,14 @@
+.projetos {
+    width: 100vw;
+    height: 93vh;
+
+}
+.projetos-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Inicio do card de projetos */
+
+

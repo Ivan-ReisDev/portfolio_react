@@ -19,7 +19,7 @@ const Nav = () => {
                   <li><a href="home"><span className='icon-nav'><FaHouse/></span>Home</a></li>
                   <li><a href="#sobre"><span className='icon-nav'><FaUserTie/></span>Sobre</a></li>
                   <li><a href="#tecnologias"><span className='icon-nav'><FaReact /></span>Tecnologias</a></li>
-                  <li><a href="Projetos"><span className='icon-nav'><IoMdSettings/></span>Projetos</a></li>
+                  <li><a href="#projetos"><span className='icon-nav'><IoMdSettings/></span>Projetos</a></li>
                   <li><a href="Contato"><span className='icon-nav'><FaPhoneAlt /></span>Contato</a></li>
               </ul>
           </nav>
