@@ -58,6 +58,7 @@
 
 .footer-mapa li, .footer-contato li {
     margin: 5px 0;
+    text-align: center;
 }
 
 .footer-contato ul {

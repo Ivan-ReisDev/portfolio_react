@@ -1,6 +1,7 @@
 .projetos {
     width: 100vw;
-    height: 93vh;
+    height: auto;
+    padding: 0 12%;
 
 }
 .projetos-title{
@@ -9,6 +10,43 @@
     justify-content: center;
 }
 
-/* Inicio do card de projetos */
+.galeriaPai {
+    margin: 5% 0;
+    height: 100%;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: -10px; /* Compensar o espaçamento negativo do margin nos itens da galeria */
+  }
+  
+  .gallery-item {
+    width: calc(33.33% - 20px); /* Definindo a largura dos itens, levando em consideração o espaçamento de 20px entre eles */
+    margin: 10px;
+    overflow: hidden;
+  }
+  
+  .gallery-item img {
+    max-width: 100%;
+    z-index: 100;
+    height: auto;
+    transition: transform 0.3s ease-in-out; /* Adicionando uma transição suave ao efeito de zoom */
+    cursor: pointer;
+  }
+  
+  .gallery-item img:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse sobre a imagem */
+  }
 
+  .gallery span {
+    z-index: 150;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(33.33% - 20px);;
+    background-color: aqua;
+    height: auto;
 
+  }
