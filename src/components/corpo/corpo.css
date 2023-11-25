@@ -8,7 +8,6 @@
 
 .corpo a {
     color: #032229;
-
 }
 
 .dark {
@@ -16,12 +15,12 @@
     z-index: 25px;
     position: absolute;
     top: 100vh;
-    color: #969696;
+    color: #ffffff;
     width: 100vw;
 }
 
 .dark h4 { 
-    color: #032229;
+    color: #ffffff;
 }
 
 
