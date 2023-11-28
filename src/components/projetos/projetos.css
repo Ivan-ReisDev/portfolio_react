@@ -198,8 +198,9 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        width: 350px;
-        height: 735px;
+        width: 310px;
+
+        min-height: 90vh;
     }
 
     .card-Projetos-Img  {
@@ -222,9 +223,9 @@
 
     .infoCard p {
         text-align: center;
-        min-width: 300px;
-        font-size: 13px;
-        line-height: 22px;
+        min-width: 250px;
+        font-size: 12px;
+        line-height: 20px;
     }
 
 
