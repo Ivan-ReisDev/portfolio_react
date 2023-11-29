@@ -1,33 +1,8 @@
 import React from 'react'
 import emailjs from '@emailjs/browser'
 import { useState } from 'react'
-import ReCAPTCHA from "react-google-recaptcha";
 import './contato.css'
 const Contato = () => {
-
-  const [isCaptchaVerified, setIsCaptchaVerified] = useState(false);
-  const handleCaptchaChange = (value) => {
-    // Este callback é chamado quando o usuário resolve o reCAPTCHA
-    console.log("Captcha value:", value);
-    setIsCaptchaVerified(true);
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    if (isCaptchaVerified) {
-      sendEmail()
-      console.log("Formulário enviado!");
-    } else {
-      // Exiba uma mensagem de erro ou tome outras medidas
-      console.error("Por favor, resolva o reCAPTCHA antes de enviar o formulário.");
-    }
-  };
-
-
-
-
-
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
@@ -63,7 +38,7 @@ const Contato = () => {
     <section className='contato' id='contato'>
       <span>Gostou do que viu?</span>
       <span>Então vamos trabalhar juntos!</span>
-        <form className="form" onSubmit={handleSubmit}>
+        <form className="form" onSubmit={sendEmail}>
             <input type="text" 
             className='contato-entry'
             name="name" 
@@ -94,15 +69,10 @@ const Contato = () => {
             onChange={(e) => setMessage(e.target.value)}
             value={message}
             />
-              <ReCAPTCHA
-              sitekey="6LeZ8h8pAAAAAIOuHFCbviLK2Xs9TrBK6m26BVhS"
-             onChange={handleCaptchaChange}
-              />
-
             <input  className='btn-contatos' type="submit" value='Enviar' />
         </form>
         <div>
-
+          
         </div>
 
     </section>
