@@ -1,8 +1,33 @@
 import React from 'react'
 import emailjs from '@emailjs/browser'
 import { useState } from 'react'
+import ReCAPTCHA from "react-google-recaptcha";
 import './contato.css'
 const Contato = () => {
+
+  const [isCaptchaVerified, setIsCaptchaVerified] = useState(false);
+  const handleCaptchaChange = (value) => {
+    // Este callback é chamado quando o usuário resolve o reCAPTCHA
+    console.log("Captcha value:", value);
+    setIsCaptchaVerified(true);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (isCaptchaVerified) {
+      sendEmail()
+      console.log("Formulário enviado!");
+    } else {
+      // Exiba uma mensagem de erro ou tome outras medidas
+      console.error("Por favor, resolva o reCAPTCHA antes de enviar o formulário.");
+    }
+  };
+
+
+
+
+
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
@@ -18,7 +43,6 @@ const Contato = () => {
       from_name: name,
       message:message,
       email: email
-    
     }
 
 
@@ -29,6 +53,7 @@ const Contato = () => {
       setMessage('')
       setName('')
     }, (err) => {
+
       console.log('ERRO', err.status, err.text)
     
     })
@@ -36,8 +61,11 @@ const Contato = () => {
 
   return (
     <section className='contato' id='contato'>
-        <form className="form" onSubmit={sendEmail}>
+      <span>Gostou do que viu?</span>
+      <span>Então vamos trabalhar juntos!</span>
+        <form className="form" onSubmit={handleSubmit}>
             <input type="text" 
+            className='contato-entry'
             name="name" 
             id="name" 
             placeholder='Digite seu nome *' 
@@ -47,6 +75,7 @@ const Contato = () => {
             />
 
             <input type="text" 
+            className='contato-entry'
             name='email' 
             id='email' 
             placeholder='Digite seu e-mail *'
@@ -55,7 +84,8 @@ const Contato = () => {
             value={email} 
             />
 
-            <textarea name="message" 
+            <textarea name="message"
+            className='contato-entry-area' 
             id="message" 
             cols="30" 
             rows="10" 
@@ -64,9 +94,16 @@ const Contato = () => {
             onChange={(e) => setMessage(e.target.value)}
             value={message}
             />
-       
-            <input type="submit" value='Enviar' />
+              <ReCAPTCHA
+              sitekey="6LeZ8h8pAAAAAIOuHFCbviLK2Xs9TrBK6m26BVhS"
+             onChange={handleCaptchaChange}
+              />
+
+            <input  className='btn-contatos' type="submit" value='Enviar' />
         </form>
+        <div>
+
+        </div>
 
     </section>
   )

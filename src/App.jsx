@@ -15,6 +15,7 @@ function App() {
   const [modoDark, setModoDark] = useState(storeLocal ? storeLocal === 'true' : false);
 
   const updadeModoDark = () => {
+    
     setModoDark((prevModoDark) => {
       const newModoDark = !prevModoDark;
       localStorage.setItem("store", newModoDark.toString());
