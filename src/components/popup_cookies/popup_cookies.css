@@ -30,9 +30,9 @@
 }
 
 .popup p { 
+    width: 90%;
     font-size: 11px;
     color: rgb(2, 2, 2);
-
 }
 
 .popup-meio {
@@ -58,7 +58,6 @@
     background-color: #007BFF;
     cursor: pointer;
     transition: .6s;
-
 }
 
 .popup-end button:hover {
@@ -66,3 +65,23 @@
 
 }
 
+
+
+
+@media (max-width: 750px) {
+    .popup-pg {
+        bottom: 0;
+    }
+
+    .popup {
+        bottom: 3em;
+        min-height: 150px;
+        flex-direction: column;
+
+    }
+
+    .popup-end button {
+        margin-top: 15px;
+
+    }
+}

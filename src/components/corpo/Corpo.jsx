@@ -1,3 +1,4 @@
+import Contato from '../contato/Contato'
 import { Footer } from '../footer/Footer'
 import Popup_cookies from '../popup_cookies/Popup_cookies'
 import Projetos from '../projetos/Projetos_main'
@@ -15,6 +16,7 @@ const Corpo = ({ modoDark }) => {
       <Sobre />
       <Tecnologias/>
       <Projetos/>
+      <Contato/>
       <Popup_cookies/>
       <Footer/>
 

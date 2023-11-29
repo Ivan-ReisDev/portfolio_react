@@ -1,6 +1,7 @@
 .corpo {
     position: absolute;
     top: 100vh;
+    height: auto;
     min-width: 100vw;
     color: black;
     background-color: #E7ECEF;

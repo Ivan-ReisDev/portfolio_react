@@ -97,7 +97,7 @@ const Projetos_main = () => {
 
     {
       id:8,
-      titulo:'Jokenpo',
+      titulo:'Jokenpô',
       legenda:'Uma criação divertida em Javascript, HTML5 e CSS3, desenvolvida como parte do curso introdutório de Javascript do "Curso em Vídeo". Uma maneira lúdica de aprimorar e aplicar os conhecimentos recém-adquiridos. 🎮💡',
       tags:' #DesenvolvimentoJavascript #HTML5 #CSS3 ',
       tecnologias:[<IoLogoJavascript />, <FaCss3 />, <FaHtml5 />],
