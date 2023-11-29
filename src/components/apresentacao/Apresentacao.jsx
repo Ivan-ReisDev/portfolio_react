@@ -3,7 +3,6 @@ import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim";
 import './apresentacao.css'
 
-
 // eslint-disable-next-line react/prop-types
 const Apresentacao = ({ modoDark }) => {
     const particlesInit = useCallback(async engine => {
@@ -15,7 +14,7 @@ const Apresentacao = ({ modoDark }) => {
         await console.log(container);
     }, []);
 
-    const OptionDark = () => {
+    const OptionDark = (e) => {
         let codeHex = ''
 
         if (!modoDark) {

@@ -5,8 +5,11 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 2.5em 0;
 }
 .contato form {
+    margin-top: 2em;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,35 +19,30 @@
 .contato span {
     margin: 0;
     padding: 0;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
 }
 
 .contato-entry {
-    caret-color: rgb(243, 243, 243);
-    color: #bdbdbd;;
     border-radius: 5px;
     padding: 0 0 0 10px;
-    margin: 10px 0;
+    margin: 10px 2em;
     border:none;
     border-bottom: 2px solid #8a8a8a;
     width: 500px;
     height: 45px;
-    background-color: #2b2b2b50;
+    background-color: #7a7a7a50;
 }
 
-
-
 .contato-entry-area {
-    color: #bdbdbd;
-    caret-color: rgb(243, 243, 243);
     border-radius: 5px;
     padding: 10px 0 0 10px;
     margin: 10px 0;
     border:none;
     border-bottom: 2px solid #8a8a8a;
     width: 500px;
-    background-color: #2b2b2b50;
+    background-color: #7a7a7a50;
+    margin-bottom: 2em;
 }
 
 textarea:focus, input:focus, select:focus {
@@ -64,4 +62,36 @@ textarea:focus, input:focus, select:focus {
     border: none;
     letter-spacing: 2px;
     text-transform: uppercase;
+    margin-bottom: 2em;
+    transition: 1s;
+}
+
+.btn-contatos:hover {
+    background-color: #032229 ;
+
+}
+
+
+@media (max-width: 550px) {
+    .contato-entry-area, 
+    .contato-entry,
+    .btn-contatos {
+        width: 400px;
+
+    }
+
+}
+
+@media (max-width: 465px) {
+
+    .contato span{
+        font-size: 30px;
+
+    }
+    .contato-entry-area, 
+    .contato-entry,
+    .btn-contatos {
+        width: 250px;
+
+    }
 }
