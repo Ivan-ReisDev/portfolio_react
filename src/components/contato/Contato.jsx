@@ -16,7 +16,7 @@ const Contato = () => {
       console.log('insira um email válido');
       return
     }
-    if(email.toLowerCase().includes('.com')){
+    if(!email.toLowerCase().includes('.com') || !email.toLowerCase().includes('@') ){
       console.log('insira um email válido');
       return
     }
@@ -75,7 +75,7 @@ const Contato = () => {
           value={name}
         />
 
-        <input type="text"
+        <input type="email"
           className='contato-entry'
           name='email'
           id='email'
