@@ -8,7 +8,6 @@ const Contato = () => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
-
   const sendEmail = () => {
 
     if (name === '' || email === '' || message === '') {
@@ -16,9 +15,10 @@ const Contato = () => {
       console.log('insira um email válido');
       return
     }
+
     if(!email.toLowerCase().includes('.com') || !email.toLowerCase().includes('@') ){
       console.log('insira um email válido');
-      return
+      return false
     }
 
     const tampleteParams = {
@@ -32,6 +32,7 @@ const Contato = () => {
         setEmail('')
         setMessage('')
         setName('')
+        
       }, (err) => {
 
         console.log('ERRO', err.status, err.text)

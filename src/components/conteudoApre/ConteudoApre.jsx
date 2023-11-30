@@ -15,9 +15,9 @@ const ConteudoApre = () => {
           <p>Desenvolvedor Full-Stack</p>
         </div>
         <div className='icons'>
-          <a href="#" target='_blank' className='linkedin'><FaLinkedin /></a>
-          <a href="#" target='_blank' className='github'><FaGithubSquare /></a>
-          <a href="#" target='_blank'className='whatsapp' ><FaWhatsappSquare /></a>
+          <a href="https://br.linkedin.com/" target='_blank' className='linkedin'><FaLinkedin /></a>
+          <a href="https://github.com/Ivan-ReisDev" target='_blank' className='github'><FaGithubSquare /></a>
+          <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521985598348" target='_blank'className='whatsapp' ><FaWhatsappSquare /></a>
         </div>
       </div>
     </div>

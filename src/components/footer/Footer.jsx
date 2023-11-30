@@ -13,20 +13,20 @@ export const Footer = () => {
             <div className="footer-mapa">
               <h5>Mapa do Site</h5>
                 <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Sobre</a></li>
-                  <li><a href="#">Tecnologias</a></li>
-                  <li><a href="#">Projetos</a></li>
-                  <li><a href="#">Contato</a></li>
+                  <li><a href="#sobre">Sobre</a></li>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#tecnologias">Tecnologias</a></li>
+                  <li><a href="#projetos">Projetos</a></li>
+                  <li><a href="#contato">Contato</a></li>
 
                 </ul>
             </div>
             <div className="footer-contato">
               <h5>Contato</h5>
                 <ul>
-                  <li><a href="#"><FaLinkedin/></a></li>
-                  <li><a href="#"><FaGithubSquare/></a></li>
-                  <li><a href="#"><FaWhatsappSquare/></a></li>
+                  <li><a target='_blank' href="https://br.linkedin.com/"><FaLinkedin/></a></li>
+                  <li><a target='_blank' href="https://github.com/Ivan-ReisDev"><FaGithubSquare/></a></li>
+                  <li><a target='_blank' href="https://api.whatsapp.com/send?1=pt_BR&phone=5521985598348"><FaWhatsappSquare/></a></li>
                 </ul>
             </div>
 
