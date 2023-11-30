@@ -7,7 +7,7 @@ const infoCards = [
   { 
     id:1,
     linguagem:'Javascript',
-    legenda: 'JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web',
+    legenda: 'JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.',
     img: 'https://logospng.org/download/javascript/logo-javascript-256.png'
   },
 
