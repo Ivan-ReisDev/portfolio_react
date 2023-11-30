@@ -75,7 +75,7 @@ const Projetos_main = () => {
 
     {
       id:6,
-      titulo:'Gerador de PDF',
+      titulo:'Gerador de extrato',
       legenda:'Simplificando a emissão de extratos de pagamento para imobiliárias. Desenvolvido em Javascript com a poderosa biblioteca jsPDF, nosso gerador visa proporcionar facilidade e eficiência na vida do usuário. 📄💻',
       tags:'#FacilitandoPagamentos #Javascript #jsPDF #EficiênciaOperacional',
       tecnologias:[<IoLogoJavascript />, <FaCss3 />, <FaHtml5 />],
