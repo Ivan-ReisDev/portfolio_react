@@ -13,8 +13,8 @@ export const Footer = () => {
             <div className="footer-mapa">
               <h5>Mapa do Site</h5>
                 <ul>
-                  <li><a href="#sobre">Sobre</a></li>
                   <li><a href="#home">Home</a></li>
+                  <li><a href="#sobre">Sobre</a></li>
                   <li><a href="#tecnologias">Tecnologias</a></li>
                   <li><a href="#projetos">Projetos</a></li>
                   <li><a href="#contato">Contato</a></li>
