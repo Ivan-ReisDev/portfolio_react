@@ -1,4 +1,5 @@
 import './App.css'
+import { Analytics } from '@vercel/analytics/react';
 import Apresentacao from './components/apresentacao/Apresentacao'
 import Header from './components/header/Header'
 import Sobre from './components/sobre/Sobre'
@@ -30,6 +31,7 @@ function App() {
       <Apresentacao modoDark={modoDark} />
       <ConteudoApre />
       <Corpo modoDark={modoDark} />
+      <Analytics />
       
     </>
   )
