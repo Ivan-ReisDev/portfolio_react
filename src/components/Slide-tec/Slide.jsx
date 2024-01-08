@@ -67,6 +67,14 @@ const infoCards = [
     legenda:"SQLite é uma biblioteca em linguagem C que implementa uma base de dados SQL embutida. Programas que usem a biblioteca SQLite podem ter acesso a banco de dados SQL sem executar um processo SGBD separado.",
     img:'https://logospng.org/download/sqlite/sqlite-256.png'
 
+  },
+
+  {
+    id: 10,
+    linguagem:'Mongo.db',
+    legenda:"MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma, escrito na linguagem C++. Classificado como um programa de banco de dados NoSQL, o MongoDB usa documentos semelhantes a JSON com esquemas.",
+    img:'https://logospng.org/download/mongodb/mongodb-256.png'
+
   }
 
 
