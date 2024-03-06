@@ -27,7 +27,7 @@ const Nav = () => {
                   <li onClick={eventSidebarInterno}><a href="#sobre"><span className='icon-nav'><FaUserTie/></span>Sobre</a></li>
                   <li onClick={eventSidebarInterno}><a href="#tecnologias"><span className='icon-nav'><FaReact /></span>Tecnologias</a></li>
                   <li onClick={eventSidebarInterno}><a href="#projetos"><span className='icon-nav'><IoMdSettings/></span>Projetos</a></li>
-                  <li onClick={eventSidebarInterno}><a href="#contato"><span className='icon-nav'><FaPhoneAlt /></span>teste</a></li>
+
                   <li onClick={eventSidebarInterno}><a href="#contato"><span className='icon-nav'><FaPhoneAlt /></span>Contato</a></li>
               </ul>
           </nav>
