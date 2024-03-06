@@ -4,7 +4,6 @@ import { FaCss3, FaHtml5, FaPython, FaReact, FaNode   } from "react-icons/fa";
 import { BiSolidRightArrow } from "react-icons/bi";
 import { SiSqlite } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
-
 import Burguer from '../../assets/burguer.png'
 import Calcule from '../../assets/calculeaqui.png'
 import Estoque from '../../assets/sistemadeestoque.png'
