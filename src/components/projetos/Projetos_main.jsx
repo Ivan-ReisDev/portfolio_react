@@ -28,13 +28,13 @@ const Projetos_main = () => {
       legenda:'🚀 Apresentamos o DOPsystem, um projeto revolucionário no Habbo Hotel para otimizar a gestão de equipes. Com prevenção a XSS e controle de sessão pelo admin, este micro HRMS facilita a administração eficiente dos funcionários. Desenvolvido com: Node.js, Express, MongoDB, React e Vercel. 🏢💼',
       tags:' #DesenvolvimentoWeb #HRMS #NodeJS #ExpressJS #MongoDB #ReactJS #Vercel',
       tecnologias:[<FaReact />, <SiExpress/>, <FaNode />, <DiMongodb />, <SiTailwindcss/>],
-      github:'https://github.com/Ivan-ReisDev/projeto-estoque-frontend',
+      github:'https://github.com/Ivan-ReisDev/dopsystem-frontend',
       site:'https://policiadop.com.br/',
       img: Dopsystem
     },
 
     {
-      id:1,
+      id:2,
       titulo:'Sistema de Estoque',
       legenda:'Construindo o futuro da gestão de estoque com o projeto Carro Peças! 💻🔧 Em pleno desenvolvimento, esta plataforma inovadora utiliza o poder do framework React, a versatilidade da linguagem Node e a robustez do MongoDB como banco de dados. 🚗📊',
       tags:' #DesenvolvimentoWeb #ReactJS #NodeJS #MongoDB #Inovação #GestãoDeEstoque',
@@ -46,7 +46,7 @@ const Projetos_main = () => {
 
 
     {
-      id:2,
+      id:3,
       titulo: 'Hamburgueria',
       legenda: 'Esse site é resultado do uso das mais recentes tecnologias web - HTML5, CSS3 e Javascript. Este projeto acadêmico visa aprimorar habilidades no desenvolvimento de landing pages. 🚀🍔',
       tags: '#WebDevelopment #HTML5 #CSS3 #Javascript #AprendizadoConstante',
@@ -57,7 +57,7 @@ const Projetos_main = () => {
     },
 
     {
-      id:3,
+      id:4,
       titulo: 'Calcule Aqui',
       legenda: 'Facilitando a vida de contadores e usuários que precisam conferir valores de boletos atrasados. Nosso site, foi desenvolvido com Javascript, HTML5 e CSS3, proporciona uma experiência intuitiva e eficiente. 💰🖥️',
       tags:'#FacilidadeFinanceira #WebDevelopment #Contabilidade',
@@ -68,7 +68,7 @@ const Projetos_main = () => {
     },
 
     {
-      id:4,
+      id:5,
       titulo:'Sistema de Estoque',
       legenda:'Desenvolvido com Python, SQLite, Tkinter e CustonTkinter, nossa ferramenta visa simplificar a gestão de estoque para os gestores. Oferece controle completo de inventário e precificação, proporcionando eficiência e praticidade. 📦💻 ',
       tags:'#GestãoDeEstoque #DesenvolvimentoPython #EficiênciaEmpresarial',
@@ -80,7 +80,7 @@ const Projetos_main = () => {
 
 
   {
-      id:5,
+      id:6,
       titulo:'Gerador de Senha',
       legenda:'Promovendo a segurança online de forma simples e eficaz. Desenvolvido com Javascript, HTML5 e CSS3, nosso site é uma ferramenta essencial para fortalecer as senhas dos usuários na internet. 🔐💻',
       tags:'#SegurançaOnline #GeradorDeSenhas #WebDevelopment',
@@ -91,7 +91,7 @@ const Projetos_main = () => {
     },
  
     {
-      id:6,
+      id:7,
       titulo:'Landing Page',
       legenda:'Landing Page Acadêmica Uma página de destino de cunho acadêmico, moldada com as tecnologias mais recentes - HTML5 e CSS3. Explore o conhecimento de forma atraente e moderna. 🎓💻',
       tags:'#AcademicWebsite #HTML5 #CSS3 #InovaçãoEducacional',
@@ -102,7 +102,7 @@ const Projetos_main = () => {
     },
 
     {
-      id:7,
+      id:8,
       titulo:'Gerador de extrato',
       legenda:'Simplificando a emissão de extratos de pagamento para imobiliárias. Desenvolvido em Javascript com a poderosa biblioteca jsPDF, nosso gerador visa proporcionar facilidade e eficiência na vida do usuário. 📄💻',
       tags:'#FacilitandoPagamentos #Javascript #jsPDF #EficiênciaOperacional',
@@ -113,7 +113,7 @@ const Projetos_main = () => {
     },
   
     {
-      id:8,
+      id:9,
       titulo:'Projeto responsivo',
       legenda:'Projeto Acadêmico do Curso de Fundamentos Web Frontend: HTML, CSS e JS + 10 Projetos. Focado no desenvolvimento de técnicas responsivas, esta iniciativa foi concretizada através do uso de HTML5 e CSS3. 🚀💻',
       tags:'#DesenvolvimentoWeb #FrontendFundamentals #HTML5 #CSS3',
@@ -124,7 +124,7 @@ const Projetos_main = () => {
     },
 
     {
-      id:9,
+      id:10,
       titulo:'Jokenpô',
       legenda:'Uma criação divertida em Javascript, HTML5 e CSS3, desenvolvida como parte do curso introdutório de Javascript do "Curso em Vídeo". Uma maneira lúdica de aprimorar e aplicar os conhecimentos recém-adquiridos. 🎮💡',
       tags:' #DesenvolvimentoJavascript #HTML5 #CSS3 ',
