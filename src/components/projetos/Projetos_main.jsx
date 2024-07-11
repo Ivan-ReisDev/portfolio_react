@@ -2,6 +2,8 @@ import React from 'react'
 import { IoLogoJavascript } from "react-icons/io";
 import { FaCss3, FaHtml5, FaPython, FaReact, FaNode   } from "react-icons/fa";
 import { BiSolidRightArrow } from "react-icons/bi";
+import { SiExpress, SiTailwindcss} from "react-icons/si";
+
 import { SiSqlite } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 import Burguer from '../../assets/burguer.png'
@@ -13,12 +15,23 @@ import GeradordePDF from '../../assets/geradordepdf.png'
 import Responsivo from '../../assets/projetoResponsivo.png'
 import Jokenpo from '../../assets/jokenpo.png'
 import Carro from '../../assets/carroPecas.png'
+import Dopsystem from '../../assets/dopsystem.png'
 
 import './projetos.css'
 
 const Projetos_main = () => {
 
   const cards = [
+    {
+      id:1,
+      titulo:'DOPSystem',
+      legenda:'🚀 Apresentamos o DOPsystem, um projeto revolucionário no Habbo Hotel para otimizar a gestão de equipes. Com prevenção a XSS e controle de sessão pelo admin, este micro HRMS facilita a administração eficiente dos funcionários. Desenvolvido com: Node.js, Express, MongoDB, React e Vercel. 🏢💼',
+      tags:' #DesenvolvimentoWeb #HRMS #NodeJS #ExpressJS #MongoDB #ReactJS #Vercel',
+      tecnologias:[<FaReact />, <SiExpress/>, <FaNode />, <DiMongodb />, <SiTailwindcss/>],
+      github:'https://github.com/Ivan-ReisDev/projeto-estoque-frontend',
+      site:'https://policiadop.com.br/',
+      img: Dopsystem
+    },
 
     {
       id:1,
@@ -26,8 +39,8 @@ const Projetos_main = () => {
       legenda:'Construindo o futuro da gestão de estoque com o projeto Carro Peças! 💻🔧 Em pleno desenvolvimento, esta plataforma inovadora utiliza o poder do framework React, a versatilidade da linguagem Node e a robustez do MongoDB como banco de dados. 🚗📊',
       tags:' #DesenvolvimentoWeb #ReactJS #NodeJS #MongoDB #Inovação #GestãoDeEstoque',
       tecnologias:[<FaReact />, <FaNode />, <DiMongodb />],
-      github:'https://carropecas.vercel.app/',
-      site:'https://github.com/Ivan-ReisDev/projeto-estoque-frontend',
+      github:'https://github.com/Ivan-ReisDev/projeto-estoque-frontend',
+      site:'https://carropecas.vercel.app/',
       img: Carro
     },
 
