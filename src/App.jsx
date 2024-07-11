@@ -11,12 +11,13 @@ import { useState } from 'react'
 
 function App() {
 
-  var storeLocal = localStorage.getItem('store')
-
+  const storeLocal = localStorage.getItem('store');
+  
+  // Define o estado inicial como false (modo dia) se não houver nada armazenado, caso contrário, usa o valor armazenado
   const [modoDark, setModoDark] = useState(storeLocal ? storeLocal === 'true' : false);
 
+  // Função para alternar entre os modos e atualizar o localStorage
   const updadeModoDark = () => {
-    
     setModoDark((prevModoDark) => {
       const newModoDark = !prevModoDark;
       localStorage.setItem("store", newModoDark.toString());
