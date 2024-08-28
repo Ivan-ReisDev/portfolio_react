@@ -16,6 +16,11 @@
     border-bottom: 2px solid #0ca2bd;
 }
 
+.paragrafo span {
+    font-weight: 600;
+
+}
+
 .content-sobre {
     height: 100%;
     width: 100vw;
