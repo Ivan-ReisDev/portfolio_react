@@ -214,9 +214,14 @@
         max-height: 40%;
 
     }
+    .card-footer-tec span {
+        margin: 15px 0;
+
+
+    }
 
     .infoCard { 
-        height: 45%;
+        height: auto;
 
     }
 
