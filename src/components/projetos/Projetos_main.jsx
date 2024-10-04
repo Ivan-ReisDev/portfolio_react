@@ -1,9 +1,7 @@
-import React from "react";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaCss3, FaHtml5, FaPython, FaReact, FaNode } from "react-icons/fa";
 import { BiSolidRightArrow } from "react-icons/bi";
-import { SiExpress, SiTailwindcss, SiFirebase, SiGoogleanalytics } from "react-icons/si";
-import { SiSqlite } from "react-icons/si";
+import { SiExpress, SiTailwindcss, SiFirebase, SiSqlite, SiGoogleanalytics, SiTypescript, SiNextdotjs } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 import Burguer from "../../assets/burguer.png";
 import Calcule from "../../assets/calculeaqui.png";
@@ -16,6 +14,7 @@ import Jokenpo from "../../assets/jokenpo.png";
 import Carro from "../../assets/carroPecas.png";
 import Dopsystem from "../../assets/dopsystem.png";
 import FlappyBird from "../../assets/flappyBird.png"
+import NewsMaster from "../../assets/NewsMaster.png"
 
 import "./projetos.css";
 
@@ -23,6 +22,22 @@ const Projetos_main = () => {
   const cards = [
     {
       id: 1,
+      titulo: "News Master",
+      legenda:
+        "📰 Apresentamos o NewsMaster, um gerador de notícias de curiosidades com automação de postagens. Escolha temas ou use tópicos aleatórios para criar e agendar publicações nos blogs integrados com Ghost. Desenvolvido com Next.js, TypeScript, MongoDB e TailwindCSS para RA1 Tecnologia. 🌐⚙️",
+      tags: " #DesenvolvimentoWeb #Automação #NextJS #TypeScript #MongoDB #TailwindCSS ",
+      tecnologias: [
+        <SiNextdotjs  />,
+        <SiTypescript />,
+        <DiMongodb />,
+        <SiTailwindcss />,
+      ],
+      site: "http://15.229.213.93/",
+      img: NewsMaster,
+    },
+
+    {
+      id: 2,
       titulo: "DOPSystem",
       legenda:
         "🚀 Apresentamos o DOPsystem, um projeto revolucionário no Habbo Hotel para otimizar a gestão de equipes. Com prevenção a XSS e controle de sessão pelo admin, este micro HRMS facilita a administração eficiente dos funcionários. Desenvolvido com: Node.js, Express, MongoDB, React e Vercel. 🏢💼",
@@ -40,7 +55,7 @@ const Projetos_main = () => {
     },
 
     {
-      id: 2,
+      id: 3,
       titulo: "Flappy Bird",
       legenda:
         "Dominando os céus com o Flappy Bird! 🎮🚀 Desenvolvido para a RA1 Tecnologia, este site permite que você conquiste o topo do ranking mundial. Criado com o poder do React, a eficiência do Firebase e o estilo do Tailwind, tudo com o monitoramento do Google Analytics. 🕊️💻",
@@ -51,7 +66,7 @@ const Projetos_main = () => {
     },
 
     {
-      id: 3,
+      id: 4,
       titulo: "Sistema de Estoque",
       legenda:
         "Construindo o futuro da gestão de estoque com o projeto Carro Peças! 💻🔧 Em pleno desenvolvimento, esta plataforma inovadora utiliza o poder do framework React, a versatilidade da linguagem Node e a robustez do MongoDB como banco de dados. 🚗📊",
@@ -63,7 +78,7 @@ const Projetos_main = () => {
     },
 
     {
-      id: 4,
+      id: 5,
       titulo: "Hamburgueria",
       legenda:
         "Esse site é resultado do uso das mais recentes tecnologias web - HTML5, CSS3 e Javascript. Este projeto acadêmico visa aprimorar habilidades no desenvolvimento de landing pages. 🚀🍔",
@@ -75,7 +90,7 @@ const Projetos_main = () => {
     },
 
     {
-      id: 5,
+      id: 6,
       titulo: "Calcule Aqui",
       legenda:
         "Facilitando a vida de contadores e usuários que precisam conferir valores de boletos atrasados. Nosso site, foi desenvolvido com Javascript, HTML5 e CSS3, proporciona uma experiência intuitiva e eficiente. 💰🖥️",
@@ -87,7 +102,7 @@ const Projetos_main = () => {
     },
 
     {
-      id: 6,
+      id: 7,
       titulo: "Sistema de Estoque",
       legenda:
         "Desenvolvido com Python, SQLite, Tkinter e CustonTkinter, nossa ferramenta visa simplificar a gestão de estoque para os gestores. Oferece controle completo de inventário e precificação, proporcionando eficiência e praticidade. 📦💻 ",
@@ -99,7 +114,7 @@ const Projetos_main = () => {
     },
 
     {
-      id: 7,
+      id: 8,
       titulo: "Gerador de Senha",
       legenda:
         "Promovendo a segurança online de forma simples e eficaz. Desenvolvido com Javascript, HTML5 e CSS3, nosso site é uma ferramenta essencial para fortalecer as senhas dos usuários na internet. 🔐💻",
@@ -111,7 +126,7 @@ const Projetos_main = () => {
     },
 
     {
-      id: 8,
+      id: 9,
       titulo: "Landing Page",
       legenda:
         "Landing Page Acadêmica Uma página de destino de cunho acadêmico, moldada com as tecnologias mais recentes - HTML5 e CSS3. Explore o conhecimento de forma atraente e moderna. 🎓💻",
@@ -123,7 +138,7 @@ const Projetos_main = () => {
     },
 
     {
-      id: 9,
+      id: 10,
       titulo: "Gerador de extrato",
       legenda:
         "Simplificando a emissão de extratos de pagamento para imobiliárias. Desenvolvido em Javascript com a poderosa biblioteca jsPDF, nosso gerador visa proporcionar facilidade e eficiência na vida do usuário. 📄💻",
@@ -135,7 +150,7 @@ const Projetos_main = () => {
     },
 
     {
-      id: 10,
+      id: 11,
       titulo: "Projeto responsivo",
       legenda:
         "Projeto Acadêmico do Curso de Fundamentos Web Frontend: HTML, CSS e JS + 10 Projetos. Focado no desenvolvimento de técnicas responsivas, esta iniciativa foi concretizada através do uso de HTML5 e CSS3. 🚀💻",
@@ -147,7 +162,7 @@ const Projetos_main = () => {
     },
 
     {
-      id: 11,
+      id: 12,
       titulo: "Jokenpô",
       legenda:
         'Uma criação divertida em Javascript, HTML5 e CSS3, desenvolvida como parte do curso introdutório de Javascript do "Curso em Vídeo". Uma maneira lúdica de aprimorar e aplicar os conhecimentos recém-adquiridos. 🎮💡',
